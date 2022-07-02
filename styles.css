@@ -13,17 +13,39 @@ html {
     font-size: 62.5% ;
 }
 
-.navigation_links{
+/* .navigation_links{
     list-style-type: none;
-    display: inline;
+    margin: 0;
+    padding: 0;
     font-size:small;
-    margin-right: 1rem;
-
+    margin-right: 2rem;
+    background-color: white;
 }
 
 .navigation_item{
-    
+    display: inline;
     text-decoration: none;
     color: black;
+} */
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;  
+  }
+  
+li {
+    float: left; 
+  }
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size:small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
 }
