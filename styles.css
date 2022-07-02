@@ -13,6 +13,7 @@ html {
     font-size: 62.5% ;
 }
 
+
 /* .navigation_links{
     list-style-type: none;
     margin: 0;
@@ -51,4 +52,44 @@ li a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+selector {
+    property :value;
+}
+
+.section-wrapper-home {
+    height: 350px;
+}
+
+.image-container-home {
+    /* width: 670px ;
+    height: 300px; */
+    object-fit :fill
+}
+
+.image-home{
+    width :100%
+}
+
+.container-home {
+    position: relative;
+  }
+
+.topleft-home {
+    position: absolute;
+    top: 118px;
+    left: 16px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-wrapper{
+    height: 350px;
+}
+
+.image-container {
+    width: 100px
+
 }

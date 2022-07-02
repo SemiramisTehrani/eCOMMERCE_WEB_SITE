@@ -10,42 +10,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple eCommerce Website</title>
 </head>
+
+
+<!-- Body : header + main + footer -->
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li style="float:center"><a class="active_center" href="#cara">CARA</a></li>
 
+                <li style="float:right"><a class="active" href="#cart(0)">CART(0)</a></li>
+            </ul>
 
-   
-<header>
-
-    <nav>
-        <ul>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#products">PRODUCTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-            <li style="float:center"><a class="active_center" href="#cara">CARA</a></li>
-
-            <li style="float:right"><a class="active" href="#cart(0)">CART(0)</a></li>
-
-
-        </ul>
-
-        <div style="padding:20px;margin-top:30px;height:1500px;">
+            <div style="padding:20px;margin-top:30px;">
+            <!-- <div style="padding:20px;margin-top:30px;height:1500px;"> -->
             <!-- <h1>Fixed Top Navigation Bar</h1>
             <h2>Scroll this page to see the effect</h2>
-            <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+            <h2>The navigation bar will stay at the top of the page while scrolling</h2> -->
 
-            <p>Some text some text some text some text..</p>
+            <!-- <p>Some text some text some text some text..</p>
             <p>Some text some text some text some text..</p>
             <p>Some text some text some text some text..</p>
             <p>Some text some text some text some text..</p>
             <p>Some text some text some text some text..</p>
             <p>Some text some text some text some text..</p> -->
-  
-          
+        <nav>
+    </header>
+    <main>
 
-<!-- CONNCET CSS TO HTML : CREATING A CLASS -->
-</header>
+        <section class ="section-wrapper-home" id = "home">
+            HOME
+            <div class="container-home"></div>
+                <img class = image-home src="./assests/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" width ="730" height = "300" alt="home">
+                <div class="topleft-home">CERAMIS CRAFTED BY HAND...</div>
+            <!-- <div class = "image-container-home">
+                <img class = image-home src="./assests/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="home"> -->
+                <!-- <div class="topleft">CERAMIS CRAFTED BY HAND...</div> -->
+            
+
+            </div>
+        
+        </section>
+        <section class ="section-wrapper" id = "about">
+            ABOUT US
+            <div class = "image-container">
+            </div>    
+        
+        </section>
+        <section class ="section-wrapper" id = "products">
+            OUR PRODUCTS
+            <div class = "image-container">
+            <img src = "./C:\Users\Semiramis\Desktop\devCodeCamps\Paython\10-week10_Introduction_To_Front_End_Developement\Project\eCOMMERCE_WEB_SITE\assests\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt ="MUNDO BOWLS $48.00">
+            </div>
+        
+        </section>
+        <section class ="section-wrapper" id = "contact">
+            CONTACT US
+            <div class = "image-container">
+            </div>
+        </section>
+    </main>
 
 
 
