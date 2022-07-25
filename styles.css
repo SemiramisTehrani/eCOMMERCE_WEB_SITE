@@ -29,6 +29,11 @@ html {
     color: black;
 } */
 
+.section-wrapper-nav{
+    height: 7px;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -54,36 +59,89 @@ li a {
     text-decoration: none;
 }
 
+.test-nav{
+    white-space: nowrap; 
+  width: 200px; 
+  overflow: hidden; 
+  border: 1px solid #000000;
+
+} 
+
+
+
+
 selector {
     property :value;
 }
+
 
 .section-wrapper-home {
     height: 350px;
 }
 
 .image-container-home {
-    /* width: 670px ;
-    height: 300px; */
-    object-fit :fill
+     width: 1500px;
+    height: 320px; 
+    object-fit :contain 
 }
 
 .image-home{
-    width :100%
+    width : 1500px;
+    height: 320px;
+    object-fit: contain;
 }
 
 .container-home {
     position: relative;
   }
 
-.topleft-home {
+.topleft-home-1 {
     position: absolute;
-    top: 118px;
+    top: 120px;
     left: 16px;
     font-size: 18px;
-    color: white;
+    color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.topleft-home-2{
+    position: absolute;
+    top: 150px;
+    left: 16px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topleft-home-3{
+    position: absolute;
+    top: 180px;
+    left: 16px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.bottomright-home-1{
+    position: absolute;
+    bottom: 450px;
+    right: 100px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.bottomright-home-2{
+    position: absolute;
+    bottom: 420px;
+    right: 100px;
+    font-size: 18px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
 
 .section-wrapper{
     height: 350px;
